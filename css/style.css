@@ -1,0 +1,51 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+#myCanvas {
+	background: #313130;
+	border-radius: 5px;
+}
+
+.info {
+	width: 480px;
+	color: #aaa;
+	font-family: monospace;
+	font-size: 18px;
+	padding: 5px;
+}
+
+#mess {
+	display: none;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	position: absolute;
+	background: #111;
+	height: 70px;
+	width: 250px;
+	border-radius: 5px;
+}
+#mess h6 {
+	font-family: monospace;
+	color: #05CFEC;
+	font-size: 20px;
+}
+#mess button {
+	border: none;
+	padding: 5px 10px;
+	border-radius: 10px;
+	outline: none;
+	margin-top: 10px;
+	background: #05CFEC;
+}
+#mess button:hover {
+	opacity: .5;
+}
